@@ -1,0 +1,5 @@
+{
+  "manifest_url": "https://example.com/assets/manifest.webmanifest",
+  "document_url": "https://example.com/app/",
+  "manifest": {"name": "Example", "start_url": "/app/?source=installed", "scope": "/app/"}
+}

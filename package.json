@@ -1,0 +1,15 @@
+{
+  "name": "pwa-identity-diff",
+  "version": "0.1.0",
+  "description": "Compare effective Web App Manifest identity and navigation scope before deployment",
+  "type": "module",
+  "engines": {"node": ">=20"},
+  "bin": {"pwa-identity-diff": "bin/cli.js"},
+  "exports": "./src/index.js",
+  "files": ["bin", "src", "examples", "README.md", "README.zh-CN.md", "LICENSE", "SECURITY.md"],
+  "scripts": {"test": "node --test", "check": "node --check src/index.js && node --check bin/cli.js"},
+  "license": "MIT",
+  "author": "KanadeK",
+  "repository": {"type": "git", "url": "https://github.com/KanadeK/pwa-identity-diff.git"},
+  "keywords": ["pwa", "manifest", "migration", "ci", "offline"]
+}

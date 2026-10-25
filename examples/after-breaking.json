@@ -1,0 +1,5 @@
+{
+  "manifest_url": "https://example.com/assets/manifest.webmanifest",
+  "document_url": "https://example.com/workspace/",
+  "manifest": {"name": "Example", "start_url": "/workspace/", "scope": "/workspace/"}
+}
